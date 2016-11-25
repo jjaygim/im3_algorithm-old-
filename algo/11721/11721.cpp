@@ -7,7 +7,7 @@ int main(){
 	cin >> a;
 	for(int i=0; i<a.length(); ++i){
 		printf("%c",a[i]);
-		if(i%10 == 9){
+		if(i%10 == 9){  //--; ??
 			cout << '\n';
 		}
 	}
